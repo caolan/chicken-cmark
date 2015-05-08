@@ -1,0 +1,4 @@
+((synopsis "Bindings to cmark - CommonMark parsing, manipulating, and rendering")
+ (author "Caolan McMahon")
+ (category parsing)
+ (license "BSD"))

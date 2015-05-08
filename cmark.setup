@@ -1,0 +1,7 @@
+(compile -O2 -d1 -s "cmark.scm" -Iinclude -lcmark -j "cmark")
+(compile -O2 -d0 -s "cmark.import.scm")
+
+(install-extension
+  'cmark
+  '("cmark.so" "cmark.import.so")
+  '((version "0.0.1")))
