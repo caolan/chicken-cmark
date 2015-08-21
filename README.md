@@ -1,7 +1,5 @@
 ## Installation
 
-The [cmark egg][cmarkegg] is available via the CHICKEN egg index:
-
 ```bash
 chicken-install cmark
 ```
@@ -21,3 +19,5 @@ a cmark package, you can install [from source][cmark] using the usual
 ;; for embedded HTML support, turn off safe mode:
 (commonmark->html "<script>alert('hello');</script>" safe: #f)
 ```
+
+[cmark]: https://github.com/jgm/cmark
