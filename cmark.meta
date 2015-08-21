@@ -1,4 +1,4 @@
-((synopsis "Bindings to cmark - CommonMark parsing, manipulating, and rendering")
+((synopsis "parser for CommonMark (a more highly specified Markdown) - uses cmark C library")
  (author "Caolan McMahon")
  (category parsing)
  (license "BSD"))
